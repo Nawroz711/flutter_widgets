@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/widgets/widget_001.dart';
-import 'package:flutter_widgets/widgets/widget_002.dart';
-import 'package:flutter_widgets/widgets/widget_003.dart';
-import 'package:flutter_widgets/widgets/widget_004.dart';
-import 'package:flutter_widgets/widgets/widget_005.dart';
-import 'package:flutter_widgets/widgets/widget_006.dart';
+import 'package:flutter_widgets/widgets/widget_010.dart';
+import 'package:flutter_widgets/widgets/widget_011.dart';
+import 'package:flutter_widgets/widgets/widget_012.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -19,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Widgets',
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.dark,
-      home: Widget006(),
+      home: Widget012(),
     );
   }
 }

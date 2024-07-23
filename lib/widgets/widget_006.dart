@@ -22,7 +22,7 @@ class _Widget006State extends State<Widget006> {
         child: Container(
           width: double.infinity,
           height: 300.0,
-          color: Colors.white10,
+          color: Colors.amberAccent,
           padding: const EdgeInsets.all(10),
           child: AnimatedAlign(
             alignment: selected ? Alignment.topLeft : Alignment.topRight,
